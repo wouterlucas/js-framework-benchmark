@@ -1,0 +1,29 @@
+{
+  "name": "lightning3-blits",
+  "version": "1.0.0",
+  "description": "Lightning 3 Blits benchmark",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite dev --host --force",
+    "build-prod": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krausest/js-framework-benchmark.git"
+  },
+  "keywords": [
+    "lightning3",
+    "blits"
+  ],
+  "author": "Wouter van Boesschoten",
+  "bugs": {
+    "url": "https://github.com/krausest/js-framework-benchmark/issues"
+  },
+  "homepage": "https://github.com/krausest/js-framework-benchmark#readme",
+  "dependencies": {
+    "@lightningjs/blits": "git://github.com/lightning-js/blits.git#feature/custom-data-prop",
+    "vite": "^4.5.2"
+  }
+}
